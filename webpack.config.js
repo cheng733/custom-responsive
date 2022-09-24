@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const base = {
@@ -41,6 +42,26 @@ if (process.env.NODE_ENV === 'production') {
       ],
     };
   
-} else {}
+} else {
+  tempConfig = {
+    ...base,
+    entry: path.join(__dirname, './src/example/src/index.tsx'),
+    output: {
+      path: path.join(__dirname, './src/example/dist'),
+      filename: 'bundle.js',
+      library: 'laputarenderer',
+      libraryTarget: 'umd',
+    },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: path.join(__dirname, './src/example/src/index.html'),
+        filename: 'index.html',
+      }),
+    ],
+    devServer: {
+      port: 9090,
+    },
+  };
+}
 
 module.exports = tempConfig;

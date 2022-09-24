@@ -1,15 +1,23 @@
-custom-responsive
+# custom-responsive
 
+> 描述
+
+```
 新增对象,数组和字符串的传参形式保留react-responsive的传参形式，满足日常的开发需求；
 后续功能。。。。。
-安装
+```
 
+> 安装
+
+```
        npm i custom-responsive
        yarn add custom-responsive
+```
 
-使用
+> 使用
 
-       @params
+```
+  @params
        传入、字符串以及数组
        1.@expamle 对象
               { small: "(max-width: 599px)",
@@ -34,5 +42,5 @@ custom-responsive
               true/false
               2.@expamle
               {small:false,medium:true,large:false}
+```
 
-API
