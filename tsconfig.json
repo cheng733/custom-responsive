@@ -9,7 +9,6 @@
       "jsxFragmentFactory": "React.Fragment", 
       "declaration": true,
       "removeComments": true,
-      "noImplicitAny":true,
       "esModuleInterop" : true,
     },
     "include": [
