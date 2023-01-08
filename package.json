@@ -1,6 +1,6 @@
 {
   "name": "custom-responsive",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Media queries in react for responsive design",
   "main": "dist/index.js",
   "files": [
@@ -44,13 +44,6 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.10.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cheng733/custom-responsive"
-  },
-  "bugs": {
-    "url": "https://github.com/cheng733/custom-responsive/issues"
   },
   "keywords": [
     "react-component",
