@@ -36,9 +36,9 @@
               2. useMedia("max-width:1224px")       
        4.保留react-responsive的参数传递形式
               useMedia({query: '(min-width: 1224px)'})
-              useMediaQuery({ minWidth: 1224 })
-              useMediaQuery({ orientation: 'portrait' })
-              useMediaQuery({ minResolution: '2dppx' })
+              useMedia({ minWidth: 1224 })
+              useMedia({ orientation: 'portrait' })
+              useMedia({ minResolution: '2dppx' })
        @returns
        布尔值或者对象
               1.@expamle

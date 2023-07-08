@@ -1,6 +1,6 @@
 {
   "name": "custom-responsive",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Media queries in react for responsive design",
   "main": "dist/index.js",
   "files": [
