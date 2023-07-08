@@ -12,7 +12,7 @@
       "esModuleInterop" : true,
     },
     "include": [
-      "src/**/*",
+      "src/**/*", "example",
     ],
     "exclude": ["node_modules", "lib", "es"]
   }

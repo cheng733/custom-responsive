@@ -86,7 +86,6 @@ export function useMedia<T extends MediaQuerySettings, U extends MediaChange<T>>
 
             } else {
                 const _target = useMediaQuery(queries.current)
-                console.log(_target, '_target')
                 activeResult.current['_default'] = _target
             }
         }
